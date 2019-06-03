@@ -15,6 +15,17 @@ Add Dependency
     	        implementation 'com.github.ManbirKakkar:CameraUtil:Tag'
     	        
     	        }    	
+    	    
+Java 1.8 is required to use the lib. Add the following line in build.gradle
+
+    compileOptions {
+              targetCompatibility 1.8
+              sourceCompatibility 1.8
+           }
+           
+           
+# Usage
+
 
 To check if permission of camera is enabled
 
@@ -54,6 +65,8 @@ Directly set image to imageview by calling
         }
 
     }
+    
+    
 
 
 Receive image from onActivityResult

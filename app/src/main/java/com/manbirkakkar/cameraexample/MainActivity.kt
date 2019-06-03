@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
             CameraUtil(this).requestCameraPermission()
         }
 
+        if (!CameraUtil(this).isWritePermission()) {
+            CameraUtil(this).requestWritePermission()
+        }
+
 
         btnCamera.setOnClickListener {
             CameraUtil(this).getImageFromCamera()

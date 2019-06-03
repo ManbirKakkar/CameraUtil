@@ -12,9 +12,8 @@ Implementation
 Add Dependency
 
     dependencies {
-    	        implementation 'com.github.ManbirKakkar:CameraUtil:Tag'
-    	        
-    	        }    	
+    	        implementation 'com.github.ManbirKakkar:CameraUtil:0.0.1'
+    	}
     	    
 Java 1.8 is required to use the lib. Add the following line in build.gradle
 
